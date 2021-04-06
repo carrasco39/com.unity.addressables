@@ -1,5 +1,5 @@
 {
-  "name": "com.unity.addressables",
+  "name": "com.carrasco39.addressables",
   "displayName": "Addressables",
   "version": "1.17.15",
   "unity": "2018.4",
@@ -20,7 +20,7 @@
     "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
   },
   "repository": {
-    "url": "https://github.cds.internal.unity3d.com/unity/Addressables.git",
+    "url": "https://github.com/carrasco39/com.unity.addressables.git",
     "type": "git",
     "revision": "d0430a1aeb7ee2d50d51fbb97b4cd71bf8ae5f26"
   },
