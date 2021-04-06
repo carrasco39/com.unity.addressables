@@ -1044,7 +1044,7 @@ namespace UnityEditor.AddressableAssets.GUI
 
                 var targetObject = serializedObject.targetObject;
 
-                if (property.depth > 0)
+                if (property.depth > 0 || targetObject.GetType() != typeof(T))
                 {
                     var slicedName = property.propertyPath.Split('.').ToList();
                     List<int> arrayCounts = new List<int>();
